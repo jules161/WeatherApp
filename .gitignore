@@ -1,0 +1,27 @@
+
+### Beispiel-.gitignore für JavaScript- und Webprojekte
+
+```gitignore
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variable file (wenn ihr Umgebungsvariablen benutzt)
+.env
+
+# Dist files (falls ihr Webpack oder andere Tools verwendet)
+dist/
+
+# Optional npm cache directory
+.npm
+
+# MacOS und System-Dateien
+.DS_Store
+
+# Config file with API key
+config.js
